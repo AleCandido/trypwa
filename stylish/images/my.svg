@@ -13,7 +13,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
-   sodipodi:docname="icon.svg"
+   sodipodi:docname="my.svg"
    inkscape:export-filename="/home/alessandro/my-192x192.png"
    inkscape:export-xdpi="29.352039"
    inkscape:export-ydpi="29.352039">
@@ -46,7 +46,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -56,9 +56,9 @@
      id="layer1"
      transform="translate(-25.059904,-30.588354)">
     <path
-       style="fill:#29db91;fill-opacity:1;stroke:none;stroke-width:0.252567px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 75.019414,79.099624 C 50.217028,84.809309 24.669523,116.1408 30.273285,140.96734 c 4.940711,21.88899 36.430759,38.1542 58.73881,35.72728 41.772675,-4.5445 81.049025,-43.23136 94.988975,-82.870829 5.14338,-14.625637 6.73446,-41.600785 -8.19434,-45.783459 -25.77199,-7.220668 -39.14801,60.345108 -65.49132,65.074128 -17.851377,3.2046 -17.621547,-38.083619 -35.295996,-34.014836 z"
+       style="fill:#f4c88c;fill-opacity:1;stroke:#fbead3;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 90.534155,60.355844 c -25.335887,-2.419023 -70.458452,34.341414 -60.26087,80.611496 6.904327,31.32741 36.430759,38.1542 58.73881,35.72728 41.772675,-4.5445 63.156915,-27.1436 76.695515,-50.36783 24.77297,-42.495762 20.70231,-79.566412 3.6499,-76.663818 -17.0524,2.902594 -43.14888,66.870258 -67.3871,63.439668 -24.238226,-3.43058 11.03672,-50.601119 -11.436255,-52.746796 z"
        id="path833"
-       sodipodi:nodetypes="sssssss" />
+       sodipodi:nodetypes="sssszzs" />
   </g>
 </svg>
