@@ -1,6 +1,3 @@
-const CACHE_NAME = "offline";
-const OFFLINE_URL = "offline.html";
-
 self.addEventListener("fetch", function (event) {
   console.log("[Service Worker] Fetch", event.request.url);
   if (event.request.mode === "navigate") {
