@@ -1,0 +1,88 @@
+@import "theme.css";
+@import "fonts.css";
+@import "transition.css";
+
+body {
+  font-family: var(--text-font);
+  text-align: center;
+  font-size: 18px;
+  color: var(--fg1);
+  background: var(--bg1);
+}
+
+body.offline {
+  --hl1: red;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--title-font);
+  font-size: 50px;
+  font-weight: 300;
+  margin: 0;
+}
+
+a {
+  color: var(--hl3);
+}
+
+button {
+  font-family: var(--text-font);
+  font-size: 18px;
+}
+
+#title {
+  box-shadow: 3px 5px black;
+  display: inline-block;
+  padding: 0 2em;
+  margin: 1em;
+  border-radius: 1em;
+  color: var(--fg3);
+  background: linear-gradient(175deg, var(--hl1), var(--bg1) 180%);
+}
+
+#title:hover {
+  background: var(--hl2);
+}
+
+#description {
+  max-width: 60rem;
+  text-align: center;
+  margin: auto;
+  margin-top: 1rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  opacity: 0.95;
+}
+
+.text-box {
+  background: var(--bg3);
+}
+
+.hidden {
+  display: none;
+}
+
+.fancy-button {
+  padding: 0.8em;
+  margin: 1rem;
+  color: var(--bg2);
+  background-color: var(--hl2);
+  border-radius: 2em;
+  border: none;
+}
+
+.fancy-button:hover {
+  filter: brightness(0.9);
+}
+
+.fancy-button:active {
+  transform: scale(0.95) translate(0.1em);
+  filter: brightness(1.1);
+  transition: all 0.3s ease;
+}
+
+.fancy-button:active:after {
+  border: black 1px solid;
+}

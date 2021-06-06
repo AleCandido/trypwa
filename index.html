@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="theme-default">
   <head>
     <title>Hello!</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/styles/main.css" />
     <!-- Manifest -->
     <link rel="manifest" href="/manifest.json" />
   </head>
   <body>
-    <div class="title">
+    <div id="title">
       <h1>Installable</h1>
     </div>
 
-    <div class="description">
+    <div id="description" class="text-box">
       <p id="requireHTTPS" class="hidden">
         <b>STOP!</b> This page <b>must</b> be served over HTTPS. Please
         <a>reload this page via HTTPS</a>.
@@ -26,14 +26,43 @@
         <a href="https://web.dev/codelab-make-installable/">instructions</a>
         here.
       </p>
+    </div>
 
-      <!-- Install button, hidden by default -->
-      <div id="installContainer" class="hidden">
-        <button id="butInstall" type="button">Install</button>
-      </div>
+    <!-- Install button, hidden by default -->
+    <div id="installContainer" class="hidden">
+      <button id="butInstall" class="fancy-button" type="button">
+        Install
+      </button>
+    </div>
+
+    <button id="dark-mode" class="fancy-button" onclick="toggleDarkMode()">
+      Toggle Dark Mode
+    </button>
+
+    <div id="transition">
+      <svg viewBox="5 75 205 55" preserveAspectRatio="none">
+        <path
+          d="m 213.43105,131.08334 c 0,0 -11.23515,-53.76565 -28.11051,-55.750915 C 163.6924,72.78803 163.9626,122.68767 142.25783,124.46342 128.06811,125.62434 123.36456,95.41745 109.25874,97.346586 90.859467,99.862901 91.584116,118.02052 73.13101,115.93534 49.700837,113.28776 52.835491,83.266891 29.994476,77.41277 8.7543244,71.968948 -0.1742234,131.01304 -0.1742234,131.01304 Z"
+          id="waves"
+        />
+      </svg>
+      <div />
     </div>
 
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
+    <script>
+      function toggleDarkMode() {
+        const isDark =
+          getComputedStyle(document.documentElement).getPropertyValue(
+            "--dark"
+          ) === "";
+        if (isDark) {
+          document.documentElement.className = "theme-light";
+        } else {
+          document.documentElement.className = "theme-dark";
+        }
+      }
+    </script>
   </body>
 </html>
