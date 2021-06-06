@@ -10,7 +10,11 @@
 
     <p>Minimal example.</p>
 
-    <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
+    <script>
+      /* Only register a service worker if it's supported */
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("/service-worker.js");
+      }
+    </script>
   </body>
 </html>
