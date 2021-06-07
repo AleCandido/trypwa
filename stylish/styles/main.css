@@ -44,11 +44,7 @@ button {
   margin: 1em;
   border-radius: 1em;
   color: var(--fg3);
-  background: linear-gradient(175deg, var(--hl1), var(--bg1) 180%);
-}
-
-:root.theme-light #title {
-  background: var(--bg2);
+  background: linear-gradient(175deg, var(--hl1), var(--bg1) 300%);
 }
 
 #title:hover {
