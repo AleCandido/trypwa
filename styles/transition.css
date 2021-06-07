@@ -3,13 +3,13 @@
 #transition {
   z-index: -2;
   position: fixed;
-  top: 30vh;
+  top: 80vh;
   left: 0;
   width: 100vw;
 }
 
 #transition > svg {
-  height: 30vh;
+  height: 15vh;
   width: 100%;
 }
 

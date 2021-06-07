@@ -25,6 +25,11 @@ h3 {
 
 a {
   color: var(--hl3);
+  text-decoration: underline dotted 0.1em;
+}
+
+a:hover {
+  text-decoration: underline 0.1em;
 }
 
 button {
@@ -40,6 +45,10 @@ button {
   border-radius: 1em;
   color: var(--fg3);
   background: linear-gradient(175deg, var(--hl1), var(--bg1) 180%);
+}
+
+:root.theme-light #title {
+  background: var(--bg2);
 }
 
 #title:hover {
@@ -58,6 +67,11 @@ button {
 
 .text-box {
   background: var(--bg3);
+}
+
+:root.theme-light .text-box {
+  /* background: var(--bg1); */
+  border: var(--hl1) 3px outset;
 }
 
 .hidden {
