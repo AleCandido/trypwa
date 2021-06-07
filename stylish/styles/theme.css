@@ -23,20 +23,16 @@
   }
 }
 
-@function light-dark($light, $dark) {
-  @return;
-}
-
 :root {
-  --bg1: var(--light, #e6ecc1) var(--dark, #252b31);
-  --bg2: var(--light, #4d5938) var(--dark, #1d2024);
-  --bg3: var(--light, #f3f4f0) var(--dark, #3e484a);
+  --bg1: var(--light, white) var(--dark, #252b31);
+  --bg2: var(--light, #2e51a2) var(--dark, #1d2024);
+  --bg3: var(--light, #fbfcfe) var(--dark, #3e484a);
   --fg1: var(--light, #3e5336) var(--dark, #d1d6d5);
   --fg2: var(--light, #3e5336) var(--dark, #c1c8c7);
-  --fg3: var(--light, #2c3635) var(--dark, #252b31);
-  --hl1: var(--light, #fa996f) var(--dark, #d9a379);
-  --hl2: var(--light, #ecc38e) var(--dark, #d49c6b);
-  --hl3: var(--light, #b55d4d) var(--dark, #d9a379);
+  --fg3: var(--light, white) var(--dark, #252b31);
+  --hl1: var(--light, #2e51a2) var(--dark, #d9a379);
+  --hl2: var(--light, #e5ebfa) var(--dark, #d49c6b);
+  --hl3: var(--light, #2e51a2) var(--dark, #d9a379);
   --fg: brightness(0.8);
   --bg: brightness(1.3);
 }

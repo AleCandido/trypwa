@@ -27,17 +27,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="294.3692"
+     inkscape:cx="315.08349"
      inkscape:cy="361.91954"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="1458"
-     inkscape:window-height="991"
-     inkscape:window-x="26"
-     inkscape:window-y="23"
-     inkscape:window-maximized="0" />
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -56,7 +56,7 @@
      id="layer1"
      transform="translate(-25.059904,-30.588354)">
     <path
-       style="fill:#f4c88c;fill-opacity:1;stroke:#fbead3;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#7493e4;fill-opacity:1;stroke:#d7e0f7;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 90.534155,60.355844 c -25.335887,-2.419023 -70.458452,34.341414 -60.26087,80.611496 6.904327,31.32741 36.430759,38.1542 58.73881,35.72728 41.772675,-4.5445 63.156915,-27.1436 76.695515,-50.36783 24.77297,-42.495762 20.70231,-79.566412 3.6499,-76.663818 -17.0524,2.902594 -43.14888,66.870258 -67.3871,63.439668 -24.238226,-3.43058 11.03672,-50.601119 -11.436255,-52.746796 z"
        id="path833"
        sodipodi:nodetypes="sssszzs" />
